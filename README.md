@@ -16,7 +16,7 @@ Generated using Spring Initializr at https://start.spring.io
 `controller.DecryptExceptionController` - This class is actually probably redundant, the cribs will always be present in the message.  
 `exception.FailedToDecipherException` - This class is actually probably redundant, the cribs will always be present in the message.  
 `model.CipherRequest`  - Lombok is useful for removing boilerplate code, but I find it's an absolute pain for debugging  
-`model.CipherResponse` - And again
+`model.CipherResponse` - And again  
 `model.CommonErrorResponse` - This class is actually probably redundant, the cribs will always be present in the message.  
 `service.DecryptService` - We should be able to support multiple implementations, naming could have been a bit better  
 `service.DecryptServiceImpl`  
